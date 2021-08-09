@@ -1,0 +1,12 @@
+@import "css/normalize";
+@import "css/reset";
+@import "css/colors";
+@import "css/typography";
+@import "css/variables";
+@import "css/utility";
+@import "css/mixins";
+
+body {
+  direction: rtl;
+  outline-width: 3px !important;
+}

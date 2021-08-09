@@ -1,0 +1,14 @@
+{
+  "name": "custom-ui-kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "uikit": "^3.7.2"
+  }
+}

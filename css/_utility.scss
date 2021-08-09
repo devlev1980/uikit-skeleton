@@ -1,0 +1,31 @@
+@import url("_colors.scss");
+
+.yl_input,
+.yl_checkbox {
+  &:focus {
+    border: 1px solid $checkboxBg !important;
+  }
+}
+
+.yl_input {
+  border: 1px solid $primaryBorder;
+  border-radius: 100px;
+  color: $primaryText;
+  font-size: 14px;
+  max-width: 483px;
+  &::placeholder {
+    color: $primaryBorder;
+  }
+}
+.yl_checkbox {
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 4px;
+  background-position: 68% 54% !important;
+  border: 1px solid $checkboxBorder !important;
+  &:checked {
+    background-color: $checkboxBg !important;
+  }
+  &:focus {
+  }
+}
